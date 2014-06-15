@@ -1,0 +1,22 @@
+﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="overlay_test_two" EntryPointType="overlay_test_two.App" RuntimeVersion="4.7.50308.0">
+  <Deployment.Parts>
+    <AssemblyPart x:Name="overlay_test_two" Source="overlay_test_two.dll" />
+    <AssemblyPart x:Name="Microsoft.Phone.Controls.Toolkit" Source="Microsoft.Phone.Controls.Toolkit.dll" />
+    <AssemblyPart x:Name="Newtonsoft.Json" Source="Newtonsoft.Json.dll" />
+    <AssemblyPart x:Name="Telerik.Everlive.Sdk" Source="Telerik.Everlive.Sdk.dll" />
+    <AssemblyPart x:Name="Telerik.Windows.Controls.Cloud" Source="Telerik.Windows.Controls.Cloud.dll" />
+    <AssemblyPart x:Name="Telerik.Windows.Controls.Primitives" Source="Telerik.Windows.Controls.Primitives.dll" />
+    <AssemblyPart x:Name="Telerik.Windows.Core.Cloud" Source="Telerik.Windows.Core.Cloud.dll" />
+    <AssemblyPart x:Name="Telerik.Windows.Core.Cloud.Everlive" Source="Telerik.Windows.Core.Cloud.Everlive.dll" />
+    <AssemblyPart x:Name="Telerik.Windows.Core" Source="Telerik.Windows.Core.dll" />
+    <AssemblyPart x:Name="Telerik.Windows.Synchronization.Cloud.Everlive" Source="Telerik.Windows.Synchronization.Cloud.Everlive.dll" />
+    <AssemblyPart x:Name="Telerik.Windows.Controls.Input" Source="Telerik.Windows.Controls.Input.dll" />
+    <AssemblyPart x:Name="Telerik.Windows.Controls.Data" Source="Telerik.Windows.Controls.Data.dll" />
+    <AssemblyPart x:Name="Telerik.Windows.Controls.ImageEditor" Source="Telerik.Windows.Controls.ImageEditor.dll" />
+    <AssemblyPart x:Name="Telerik.Windows.Data" Source="Telerik.Windows.Data.dll" />
+    <AssemblyPart x:Name="System.Windows.Interactivity" Source="System.Windows.Interactivity.dll" />
+    <AssemblyPart x:Name="Telerik.Storage.Extensions" Source="Telerik.Storage.Extensions.dll" />
+    <AssemblyPart x:Name="Telerik.Windows.Controls.DataVisualization" Source="Telerik.Windows.Controls.DataVisualization.dll" />
+    <AssemblyPart x:Name="Telerik.Storage_WP" Source="Telerik.Storage_WP.dll" />
+  </Deployment.Parts>
+</Deployment>
